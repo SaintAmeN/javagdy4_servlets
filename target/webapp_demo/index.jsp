@@ -9,9 +9,10 @@
 <html>
 <head>
     <title>Index page</title>
+    <jsp:include page="headers.jsp"/>
 </head>
 <body>
-
+<jsp:include page="navigator.jsp"/>
 <h1>
     <%
         // Java code
@@ -24,5 +25,6 @@
     %>
 </h1>
 
+<jsp:include page="footers.jsp"/>
 </body>
 </html>
