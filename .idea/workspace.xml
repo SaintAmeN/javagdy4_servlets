@@ -28,11 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38073d73-eaeb-4165-b4ca-d473860eb3ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/javagdy4/webappka/model/Grade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/javagdy4/webappka/model/GradeSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/javagdy4/webappka/controller/StudentDetailsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/student_details.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sda/javagdy4/webappka/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sda/javagdy4/webappka/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -177,7 +175,7 @@
       <workItem from="1603006309904" duration="1403000" />
       <workItem from="1603008697926" duration="1571000" />
       <workItem from="1603011219788" duration="32000" />
-      <workItem from="1603011290241" duration="4656000" />
+      <workItem from="1603011290241" duration="5657000" />
     </task>
     <servers />
   </component>
@@ -201,30 +199,30 @@
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state x="2129" y="35" width="1528" height="1155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1602931971118" />
-    <state x="2597" y="176" width="565" height="848" key="#com.intellij.ide.util.MemberChooser" timestamp="1603014674174">
+    <state x="2597" y="176" width="565" height="848" key="#com.intellij.ide.util.MemberChooser" timestamp="1603016308554">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state x="2597" y="176" width="565" height="848" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1603014674174" />
+    <state x="2597" y="176" width="565" height="848" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1603016308554" />
     <state x="2560" y="242" key="FileChooserDialogImpl" timestamp="1602921149134">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state x="2560" y="242" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1602921149134" />
-    <state width="1266" height="294" key="GridCell.Tab.0.bottom" timestamp="1602943951184">
+    <state width="1266" height="294" key="GridCell.Tab.0.bottom" timestamp="1603017087248">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1266" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1602943951184" />
-    <state width="1266" height="294" key="GridCell.Tab.0.center" timestamp="1602943951184">
+    <state width="1266" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1603017087248" />
+    <state width="1266" height="294" key="GridCell.Tab.0.center" timestamp="1603017087248">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1266" height="294" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1602943951184" />
-    <state width="1266" height="294" key="GridCell.Tab.0.left" timestamp="1602943951184">
+    <state width="1266" height="294" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1603017087248" />
+    <state width="1266" height="294" key="GridCell.Tab.0.left" timestamp="1603017087248">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1266" height="294" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1602943951184" />
-    <state width="1266" height="294" key="GridCell.Tab.0.right" timestamp="1602943951184">
+    <state width="1266" height="294" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1603017087248" />
+    <state width="1266" height="294" key="GridCell.Tab.0.right" timestamp="1603017087248">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1266" height="294" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1602943951184" />
+    <state width="1266" height="294" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1603017087248" />
     <state width="1266" height="294" key="GridCell.Tab.1.bottom" timestamp="1602943951185">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
