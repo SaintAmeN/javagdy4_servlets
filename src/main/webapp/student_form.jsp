@@ -40,6 +40,7 @@
             <input type="number" step="0.01" name="distance_field"/>
         </div>
         <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
     </form>
 </div>
 <jsp:include page="footers.jsp"/>
