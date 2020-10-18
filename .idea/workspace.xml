@@ -28,10 +28,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38073d73-eaeb-4165-b4ca-d473860eb3ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/javagdy4/webappka/controller/StudentRemoveServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sda/javagdy4/webappka/controller/StudentFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sda/javagdy4/webappka/controller/StudentFormServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/student_form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/student_form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/student_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/student_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/javagdy4/webappka/model/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/javagdy4/webappka/model/GradeSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sda/javagdy4/webappka/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sda/javagdy4/webappka/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +177,7 @@
       <workItem from="1603006309904" duration="1403000" />
       <workItem from="1603008697926" duration="1571000" />
       <workItem from="1603011219788" duration="32000" />
-      <workItem from="1603011290241" duration="2728000" />
+      <workItem from="1603011290241" duration="4656000" />
     </task>
     <servers />
   </component>
@@ -200,10 +201,10 @@
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state x="2129" y="35" width="1528" height="1155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1602931971118" />
-    <state x="2597" y="176" width="565" height="848" key="#com.intellij.ide.util.MemberChooser" timestamp="1603013681444">
+    <state x="2597" y="176" width="565" height="848" key="#com.intellij.ide.util.MemberChooser" timestamp="1603014674174">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state x="2597" y="176" width="565" height="848" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1603013681444" />
+    <state x="2597" y="176" width="565" height="848" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1603014674174" />
     <state x="2560" y="242" key="FileChooserDialogImpl" timestamp="1602921149134">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
