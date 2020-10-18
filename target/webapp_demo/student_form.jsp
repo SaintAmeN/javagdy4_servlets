@@ -19,27 +19,30 @@
     <jsp:include page="navigator.jsp"/>
 
     <form action="${pageContext.request.contextPath}/student/form" method="post">
+        <input type="hidden" name="modifiedStudentId" value="${requestScope.modifiedStudent.id}">
         <div>
             <label>First name:</label>
-            <input type="text" name="first_name_field"/>
+            <input type="text" name="first_name_field" value="${requestScope.modifiedStudent.firstName}"/>
         </div>
         <div>
             <label>Last name:</label>
-            <input type="text" name="last_name_field"/>
+            <input type="text" name="last_name_field" value="${requestScope.modifiedStudent.lastName}"/>
         </div>
         <div>
             <label>Date of birth:</label>
-            <input type="date" name="date_of_birth_field"/>
+            <input type="date" name="date_of_birth_field" value="${requestScope.modifiedStudent.birthDate}"/>
         </div>
         <div>
             <label>
-                <input type="checkbox" name="graduated_field">
+                <input type="checkbox" name="graduated_field"
+                       checked="${requestScope.modifiedStudent.graduated ? false : true}">
                 <span>Graduated</span>
             </label>
         </div>
         <div>
             <label>Home distance:</label>
-            <input type="number" step="0.01" name="distance_field"/>
+            <input type="number" step="0.01" name="distance_field"
+                   value="${requestScope.modifiedStudent.homeDistance}"/>
         </div>
         <button type="submit">Submit</button>
         <button type="reset">Reset</button>

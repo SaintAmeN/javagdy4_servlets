@@ -23,7 +23,14 @@ public class StudentFormServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String modifiedIdString = req.getParameter("modifiedStudentId");
+        Long modifiedId = null;
+        if(modifiedIdString!= null && !modifiedIdString.isEmpty()){
+            modifiedId = Long.parseLong(modifiedIdString);
+        }
+
         Student student = new Student();
+        student.setId(modifiedId);
         student.setFirstName(req.getParameter("first_name_field"));
         student.setLastName(req.getParameter("last_name_field"));
         student.setBirthDate(LocalDate.parse(req.getParameter("date_of_birth_field")));
