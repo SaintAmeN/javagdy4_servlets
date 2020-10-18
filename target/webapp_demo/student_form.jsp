@@ -34,7 +34,7 @@
         <div>
             <label>
                 <input type="checkbox" name="graduated_field">
-                <span>Graduated:</span>
+                <span>Graduated</span>
             </label>
         </div>
         <div>
