@@ -28,15 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38073d73-eaeb-4165-b4ca-d473860eb3ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/javagdy4/webappka/controller/GradeFormServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/grade_form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webapp_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webapp_demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/footers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/footers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sda/javagdy4/webappka/controller/GradeFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sda/javagdy4/webappka/controller/GradeFormServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/grade_form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/grade_form.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/student_details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/student_details.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp_demo/footers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp_demo/footers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp_demo/student_details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp_demo/student_details.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +177,7 @@
       <workItem from="1603008697926" duration="1571000" />
       <workItem from="1603011219788" duration="32000" />
       <workItem from="1603011290241" duration="5974000" />
-      <workItem from="1603017467088" duration="3162000" />
+      <workItem from="1603017467088" duration="4312000" />
     </task>
     <servers />
   </component>

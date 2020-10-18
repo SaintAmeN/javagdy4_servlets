@@ -62,7 +62,7 @@
                         <td>${grade.id}</td>
                         <td>${grade.value}</td>
                         <td>${grade.timeCreated}</td>
-                        <td>${grade.student}</td>
+                        <td>${grade.subject}</td>
                         <td></td>
                     </tr>
                 </c:forEach>

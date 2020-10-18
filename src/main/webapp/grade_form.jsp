@@ -11,7 +11,7 @@
 
 <html>
 <head>
-    <title>Student Form</title>
+    <title>Grade Form</title>
     <jsp:include page="headers.jsp"/>
 </head>
 <body>

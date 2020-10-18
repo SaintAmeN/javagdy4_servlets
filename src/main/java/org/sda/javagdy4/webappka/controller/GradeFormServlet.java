@@ -33,16 +33,28 @@ public class GradeFormServlet extends HttpServlet {
             req.setAttribute("studentIdAttribute", studentId);
             req.setAttribute("availableSubjects", subjects);
             req.getRequestDispatcher("/grade_form.jsp").forward(req, resp);
+        }else{
+            redirectToStudentList(req, resp);
         }
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Grade grade = new Grade();
-        grade.setValue(Double.parseDouble(req.getParameter("value_field")));
-        grade.setSubject(GradeSubject.valueOf(req.getParameter("subject_field")));
+        String studentIdString = req.getParameter("studentId");
+        Long studentId = Long.parseLong(studentIdString);
+        Optional<Student> studentOptional = studentEntityDao.findById(studentId, Student.class);
+        if (studentOptional.isPresent()) {
+            Student student = studentOptional.get();
 
+            Grade grade = new Grade();
+            grade.setValue(Double.parseDouble(req.getParameter("value_field")));
+            grade.setSubject(GradeSubject.valueOf(req.getParameter("subject_field")));
+            grade.setStudent(student);
 
+            gradeEntityDao.saveOrUpdate(grade);
+        }
+
+        resp.sendRedirect(req.getContextPath() + "/student/details?id=" + studentId);
     }
 
     private void redirectToStudentList(HttpServletRequest req, HttpServletResponse resp) throws IOException {
